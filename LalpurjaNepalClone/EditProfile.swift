@@ -22,7 +22,7 @@ struct EditProfile: View {
                     .cornerRadius(500)
                     .overlay(
                         Button{
-                            
+                            Click()
                         }
                         label:{
                             Image(systemName: "camera")
@@ -38,13 +38,14 @@ struct EditProfile: View {
             .padding(.bottom,30)
             .padding(.top,20)
                 
-            ExtractedView(name: $name,title: "Your Name",placeholder: "Enter Your name",identifier: "name")
-            ExtractedView(name: $contact,title: "Phone Number",placeholder: "Enter Your contact",identifier: "contact")
-            ExtractedView(name: $email,title: "Your Email",placeholder: "Enter Your email",identifier: "email")
-            ExtractedView(name: $address,title: "Home Address",placeholder: "Enter Your address",identifier: "address")
+            
+            ExtractedView(name: $name,title: "Your Name",placeholder: "Enter Your name")
+            ExtractedView(name: $contact,title: "Phone Number",placeholder: "Enter Your contact")
+            ExtractedView(name: $email,title: "Your Email",placeholder: "Enter Your email")
+            ExtractedView(name: $address,title: "Home Address",placeholder: "Enter Your address")
             
             Button{
-                
+                Click()
             }label: {
                Text("Save")
                     .padding()
@@ -54,12 +55,16 @@ struct EditProfile: View {
                     .cornerRadius(15)
 
             }
-            .padding(.top)
+            .padding(.top,30)
             Spacer()
                 
                 
             }
+        
             
+    }
+    func Click(){
+        
     }
 }
 
@@ -73,13 +78,12 @@ struct ExtractedView: View {
     @Binding var name:String
     @State var title:String
     @State var placeholder:String
-    @State var identifier:String
     
-    var body: some View {
+    var body: some View { 
         VStack(alignment:.leading){
             Text(title)
                 .font(.title2)
-            TextField("name", text: $name, prompt: Text(placeholder).foregroundColor(.black.opacity(0.7)))
+            TextField("name", text: $name, prompt: Text(placeholder))
                 .frame(width: 320,height: 60)
                 .padding(.leading,10)
                 .background(.gray.opacity(0.18))

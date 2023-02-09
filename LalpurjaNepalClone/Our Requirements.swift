@@ -34,6 +34,7 @@ struct Our_Requirements: View {
                     .cornerRadius(10)
                 }
             }
+            .padding()
         }
     }
 }

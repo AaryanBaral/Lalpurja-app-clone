@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1A875C298B988F00077ECA /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A875B298B988F00077ECA /* AboutUs.swift */; };
 		2F1AB83B297AE28900D5EEF5 /* LalpurjaNepalCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1AB83A297AE28900D5EEF5 /* LalpurjaNepalCloneApp.swift */; };
 		2F1AB83D297AE28900D5EEF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1AB83C297AE28900D5EEF5 /* ContentView.swift */; };
 		2F1AB83F297AE28B00D5EEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1AB83E297AE28B00D5EEF5 /* Assets.xcassets */; };
@@ -20,7 +21,9 @@
 		2F46491429853C3F00B7F0DD /* Our Requirements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F46491329853C3F00B7F0DD /* Our Requirements.swift */; };
 		2F512D8C297D00D500E1E138 /* PrivacyPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F512D8B297D00D500E1E138 /* PrivacyPolicy.swift */; };
 		2F512D8E297D23E000E1E138 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F512D8D297D23E000E1E138 /* HomePage.swift */; };
+		2FAB601C2986245800C3A532 /* Property Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB601B2986245800C3A532 /* Property Page.swift */; };
 		2FC4197A297E8E06007F83C3 /* setting page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC41979297E8E06007F83C3 /* setting page.swift */; };
+		2FE26355298F67C000A43CD8 /* Request Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE26354298F67C000A43CD8 /* Request Property.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1A875B298B988F00077ECA /* AboutUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
 		2F1AB837297AE28900D5EEF5 /* LalpurjaNepalClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LalpurjaNepalClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1AB83A297AE28900D5EEF5 /* LalpurjaNepalCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LalpurjaNepalCloneApp.swift; sourceTree = "<group>"; };
 		2F1AB83C297AE28900D5EEF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +61,9 @@
 		2F46491329853C3F00B7F0DD /* Our Requirements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Our Requirements.swift"; sourceTree = "<group>"; };
 		2F512D8B297D00D500E1E138 /* PrivacyPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy.swift; sourceTree = "<group>"; };
 		2F512D8D297D23E000E1E138 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		2FAB601B2986245800C3A532 /* Property Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Property Page.swift"; sourceTree = "<group>"; };
 		2FC41979297E8E06007F83C3 /* setting page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "setting page.swift"; sourceTree = "<group>"; };
+		2FE26354298F67C000A43CD8 /* Request Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Request Property.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +119,10 @@
 				2F512D8B297D00D500E1E138 /* PrivacyPolicy.swift */,
 				2F4649112985384400B7F0DD /* Contact US.swift */,
 				2F46491329853C3F00B7F0DD /* Our Requirements.swift */,
+				2FAB601B2986245800C3A532 /* Property Page.swift */,
+				2F1A875B298B988F00077ECA /* AboutUs.swift */,
 				2F46490F2983DD6900B7F0DD /* EditProfile.swift */,
+				2FE26354298F67C000A43CD8 /* Request Property.swift */,
 				2F46490D2980D4BF00B7F0DD /* Deals Page.swift */,
 				2F512D8D297D23E000E1E138 /* HomePage.swift */,
 				2F1AB83C297AE28900D5EEF5 /* ContentView.swift */,
@@ -281,12 +290,15 @@
 				2F1AB83D297AE28900D5EEF5 /* ContentView.swift in Sources */,
 				2F46490E2980D4BF00B7F0DD /* Deals Page.swift in Sources */,
 				2F512D8C297D00D500E1E138 /* PrivacyPolicy.swift in Sources */,
+				2F1A875C298B988F00077ECA /* AboutUs.swift in Sources */,
 				2F1AB83B297AE28900D5EEF5 /* LalpurjaNepalCloneApp.swift in Sources */,
+				2FAB601C2986245800C3A532 /* Property Page.swift in Sources */,
 				2F4649102983DD6900B7F0DD /* EditProfile.swift in Sources */,
 				2F512D8E297D23E000E1E138 /* HomePage.swift in Sources */,
 				2FC4197A297E8E06007F83C3 /* setting page.swift in Sources */,
 				2F4649122985384500B7F0DD /* Contact US.swift in Sources */,
 				2F46491429853C3F00B7F0DD /* Our Requirements.swift in Sources */,
+				2FE26355298F67C000A43CD8 /* Request Property.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

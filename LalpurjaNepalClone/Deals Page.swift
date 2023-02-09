@@ -28,6 +28,11 @@ struct Deals_Page: View {
                     VStack(alignment: .leading,spacing:10){
                         HStack(spacing:40){
                             Text("Rs 4500000")
+                                .foregroundColor(.blue)
+                                .fontDesign(.rounded)
+                                .strikethrough()
+                                
+                                
                             Text("Rs 4000000")
                         }
                         .padding(.leading,30)
